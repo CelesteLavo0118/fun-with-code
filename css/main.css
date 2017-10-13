@@ -1,0 +1,116 @@
+html{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header{
+  background-image: url(../assets/octopus.png);
+  background-size: contain;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-color: #f58120;
+}
+
+nav, nav a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: .25em;
+  margin-top: .25em;
+  display: inline-block;
+  padding: .5rem;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: #b3202a;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+#nav{
+  padding-top: 3.5em;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #b3202a;
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+.logo{
+  width: 6em;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+#down{
+  position: sticky;
+  text-align: center;
+  padding-top: 485px;
+  padding-left: 45vw;
+}
+
+.down-arrow{
+  max-width:2em;
+}
+
+#celeste {
+  text-align: left;
+  padding: 2em;
+}
+
+#max {
+  text-align: right;
+  padding: 2em;
+}
+
+.nautical{
+  text-align: left;
+}
+
+#message{
+  width: 30em;
+  height: 10em;
+}
+
+.labels{
+  display: block;
+}
+
+.portrait{
+  max-width: 10em;
+}
+
+#social{
+  max-width: 1.5em;
+  display: inline;
+}
+
+footer{
+  color: white;
+  padding: 1em;
+  background-color: #f58120;
+}
+
+
+@media only screen and (max-width: 607px){
+
+  #nav{
+    position: absolute;
+    padding-top: 9em;
+    align-content: center;
+  }
+
+}
